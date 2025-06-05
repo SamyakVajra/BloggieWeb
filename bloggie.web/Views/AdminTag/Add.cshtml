@@ -1,0 +1,24 @@
+﻿@model Bloggie.Web.Models.ViewModels.SubmitTagRequest
+
+
+<div class="bg-secondary bg-opacity-10 py-2">
+    <div class="container">
+        <h1>Add New Tag - Admin Functionality </h1>
+    </div>
+</div>
+
+<div class="container py-3">
+    <form method="post">
+        <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" asp-for="Name" >
+            
+        </div>
+        <div class="mb-3">
+            <label for="diplayName" class="form-label">Display Name</label>
+            <input type="text" class="form-control" id="displayName" asp-for="DisplayName">
+        </div>
+        
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>

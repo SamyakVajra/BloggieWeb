@@ -1,0 +1,43 @@
+﻿@model List<bloggie.web.Models.Domain.Tag>
+
+
+
+<div class="bg-secondary bg-opacity-10 py-2">
+    <div class="container">
+        <h1>List All Tags - Admin Functionality </h1>
+    </div>
+</div>
+
+<div class="container py-2">
+    @if (Model != null && Model.Any())
+    {
+
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">DisplayName</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var tag in Model)
+                {
+                    <tr>
+                        <td>@tag.Id</td>
+                        <td>@tag.Name</td>
+                        <td>@tag.</td>
+                    </tr>
+
+
+                }
+
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>No Data to List!!!</p>
+    }
+
+</div>

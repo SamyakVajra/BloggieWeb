@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Dotnet\\bloggie\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D8D8EE7B-A093-44E3-8001-8EB77D8AA607}|bloggie.web\\Bloggie.Web.csproj|e:\\dotnet\\bloggie\\bloggie.web\\views\\admintag\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8D8EE7B-A093-44E3-8001-8EB77D8AA607}|bloggie.web\\Bloggie.Web.csproj|solutionrelative:bloggie.web\\views\\admintag\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8D8EE7B-A093-44E3-8001-8EB77D8AA607}|bloggie.web\\Bloggie.Web.csproj|e:\\dotnet\\bloggie\\bloggie.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8D8EE7B-A093-44E3-8001-8EB77D8AA607}|bloggie.web\\Bloggie.Web.csproj|solutionrelative:bloggie.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8D8EE7B-A093-44E3-8001-8EB77D8AA607}|bloggie.web\\Bloggie.Web.csproj|e:\\dotnet\\bloggie\\bloggie.web\\controllers\\admintagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8D8EE7B-A093-44E3-8001-8EB77D8AA607}|bloggie.web\\Bloggie.Web.csproj|solutionrelative:bloggie.web\\controllers\\admintagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8D8EE7B-A093-44E3-8001-8EB77D8AA607}|bloggie.web\\Bloggie.Web.csproj|e:\\dotnet\\bloggie\\bloggie.web\\views\\admintag\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8D8EE7B-A093-44E3-8001-8EB77D8AA607}|bloggie.web\\Bloggie.Web.csproj|solutionrelative:bloggie.web\\views\\admintag\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\Dotnet\\bloggie\\bloggie.web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "bloggie.web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\Dotnet\\bloggie\\bloggie.web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "bloggie.web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAowCMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T11:12:01.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "E:\\Dotnet\\bloggie\\bloggie.web\\Views\\AdminTag\\Add.cshtml",
+              "RelativeDocumentMoniker": "bloggie.web\\Views\\AdminTag\\Add.cshtml",
+              "ToolTip": "E:\\Dotnet\\bloggie\\bloggie.web\\Views\\AdminTag\\Add.cshtml",
+              "RelativeToolTip": "bloggie.web\\Views\\AdminTag\\Add.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T11:01:11.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "E:\\Dotnet\\bloggie\\bloggie.web\\Views\\AdminTag\\List.cshtml",
+              "RelativeDocumentMoniker": "bloggie.web\\Views\\AdminTag\\List.cshtml",
+              "ToolTip": "E:\\Dotnet\\bloggie\\bloggie.web\\Views\\AdminTag\\List.cshtml",
+              "RelativeToolTip": "bloggie.web\\Views\\AdminTag\\List.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T10:52:26.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminTagController.cs",
+              "DocumentMoniker": "E:\\Dotnet\\bloggie\\bloggie.web\\Controllers\\AdminTagController.cs",
+              "RelativeDocumentMoniker": "bloggie.web\\Controllers\\AdminTagController.cs",
+              "ToolTip": "E:\\Dotnet\\bloggie\\bloggie.web\\Controllers\\AdminTagController.cs",
+              "RelativeToolTip": "bloggie.web\\Controllers\\AdminTagController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T06:51:57.924Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
