@@ -1,0 +1,47 @@
+﻿@model List<bloggie.web.Models.Domain.BlogPost>
+@{
+}
+
+<div class="container py-5">
+    <table class="table">
+        <thead>
+
+            <tr>
+                <td>Id</td>
+                <td>Heading</td>
+                <td>Tags</td>
+                <td></td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var blogPost in Model)
+            {
+                <tr>
+                    <td>@blogPost.Id</td>
+                    <td>@blogPost.Heading</td>
+                    <td>
+                        @foreach (var tag in blogPost.Tags)
+                        {
+                            <span class="badge bg-secondary">@tag.Name</span>
+
+                        }
+                        <span></span>
+
+                    </td>
+
+                    <td>
+                        <a asp-area=""
+                           asp-controller="AdminBlogPosts"
+                           asp-action="Edit"
+                           asp-route-id="@blogPost.Id">Edit</a>
+                    </td>
+
+
+                </tr>
+            }
+        </tbody>
+
+
+    </table>
+
+</div>

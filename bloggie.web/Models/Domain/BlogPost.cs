@@ -1,4 +1,6 @@
-﻿namespace bloggie.web.Models.Domain
+﻿using Bloggie.Web.Models.Domain;
+
+namespace bloggie.web.Models.Domain
 {
     public class BlogPost
     {
@@ -14,6 +16,10 @@
         public string Author { get; set; }
         public bool Visible  { get; set; }
 
+        //Navigation Property
         public ICollection<Tag> Tags { get; set; }
+        
+        public ICollection<BlogPostLike> Likes { get; set; }
+        public ICollection<BlogPostComment> Comments { get; set; }
     }
 }

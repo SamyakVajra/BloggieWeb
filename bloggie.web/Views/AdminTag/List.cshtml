@@ -18,6 +18,8 @@
                     <th scope="col">Id</th>
                     <th scope="col">Name</th>
                     <th scope="col">DisplayName</th>
+                    <th scope="col"></th>
+                    @* <th scope="col"></th> *@
                 </tr>
             </thead>
             <tbody>
@@ -26,7 +28,16 @@
                     <tr>
                         <td>@tag.Id</td>
                         <td>@tag.Name</td>
-                        <td>@tag.</td>
+                        <td>@tag.DisplayName</td>
+                        <td>
+                            <a asp-area="" asp-controller="AdminTag" asp-action="Edit"
+                                asp-route-id="@tag.Id">Edit</a>
+                        </td>
+                        @* <td>
+                            <a asp-area="" asp-controller="AdminTag" asp-action="Delete"
+                                asp-route-id="@tag.Id">Delete</a>
+                        </td> *@
+
                     </tr>
 
 
